@@ -1744,7 +1744,7 @@ i::before,i::after{
     /*Page Headers */
 /*-------------------------------*/
 .page-header {
-   background: url(../images/page-header-2.JPG) no-repeat;
+   background: url(../images/page-header-2.jpg) no-repeat;
    background-position: center center;
    -webkit-background-size: cover;
    background-size: cover;
