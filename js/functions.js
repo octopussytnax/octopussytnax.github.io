@@ -532,7 +532,7 @@ $("#submit_btn").click(function() {
       });
       typewriter.typeString('Creative').pauseFor(2000).deleteAll()
          .typeString('Flexible').pauseFor(2000).deleteAll()
-         .typeString('Web Developer').pauseFor(2000).deleteAll()
+         .typeString('Web \"Unicorn\"').pauseFor(2000).deleteAll()
          .typeString('Aaden').pauseFor(2000).deleteAll()
          .typeString('Doer').start();
    }
