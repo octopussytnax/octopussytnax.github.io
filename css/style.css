@@ -4166,6 +4166,7 @@ footer .copyrights > a:focus {
     .rotating-words {
    	background: url(../images/page-header-2.jpg)no-repeat;
    	background-attachment: scroll;
+   	background-position:;
    }
 }
 @media (max-width: 576px) { 
@@ -4175,6 +4176,7 @@ html{
     .rotating-words {
    	background: url(../images/page-header-2.jpg)no-repeat;
    	background-attachment: scroll;
+   	background-position: right -290px center;
    }
 }
 
