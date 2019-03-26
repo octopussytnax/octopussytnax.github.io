@@ -2909,6 +2909,7 @@ i::before,i::after{
 .rotating-words {
    background: url(../images/page-header-2.jpg)no-repeat;
 }
+
 .rotating-slider {
    background: url(../images/banner-fade.jpg)no-repeat;
 }
@@ -3091,6 +3092,7 @@ iframe  {
 #testimonial-slider .owl-item:nth-child(2n) .testimonial-wrapp:hover .testimonial-text{
    background: #00bcd4;
 }
+
 .testimonial-wrapp:hover .testimonial-text{
    background: #643094;
    color: #fff;
@@ -4150,6 +4152,10 @@ footer .copyrights > a:focus {
    .heading-title > span{
       font-size: 1rem;
    }
+   .rotating-words {
+   	background: url(../images/page-header-2.jpg)no-repeat;
+
+   }
 }
 
  /*Small devices (landscape phones, less than 768px)*/
@@ -4157,11 +4163,19 @@ footer .copyrights > a:focus {
    html{
         font-size: 13px;
     }
+    .rotating-words {
+   	background: url(../images/page-header-2.jpg)no-repeat;
+   	background-attachment: scroll;
+   }
 }
 @media (max-width: 576px) { 
 html{
         font-size: 12px;
     }
+    .rotating-words {
+   	background: url(../images/page-header-2.jpg)no-repeat;
+   	background-attachment: scroll;
+   }
 }
 
 .buttonBar {
